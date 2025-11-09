@@ -14,7 +14,7 @@ import six
 
 import numpy as np
 import scipy.sparse as sp
-from numpy.core.numeric import ComplexWarning
+from numpy import ComplexWarning
 
 
 class NotFittedError(ValueError, AttributeError):
